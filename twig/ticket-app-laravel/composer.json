@@ -14,9 +14,9 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
-            "mkdir -p cache",
-            "chmod 755 cache"
-        ]
+    "start": "php -S 0.0.0.0:8080 -t public",
+    "post-install-cmd": [
+      "php artisan key:generate"
+    ]
     }
 }
