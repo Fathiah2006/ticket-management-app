@@ -4,8 +4,8 @@ This repository contains three separate implementations of the Ticket Management
 
 ## 🚀 Implementations
 
-- **React Version:** [Live Demo (Render Link)](https://your-react-app.onrender.com)
-- **Vue.js Version:** [Live Demo (Render Link)](https://your-vue-app.onrender.com)
+- **React Version:** [Live Demo (Render Link)](https://ticket-management-app-u04e.onrender.com/)
+- **Vue.js Version:** [Live Demo (Render Link)](https://ticket-flow-vue.onrender.com/)
 - **Twig Version (PHP/Slim):** [Live Demo (Render Link)](https://your-twig-app.onrender.com)
 
 ---
