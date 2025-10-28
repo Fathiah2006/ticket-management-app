@@ -14,9 +14,6 @@
         }
     },
     "scripts": {
-    "start": "php -S 0.0.0.0:8080 -t public",
-    "post-install-cmd": [
-      "php artisan key:generate"
-    ]
+        "start": "php -S 0.0.0.0:${PORT:-8080} -t public"
     }
 }
