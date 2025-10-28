@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"></stop>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="1"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M0,48 C240,120 480,24 720,64 C960,104 1200,16 1440,64 L1440,160 L0,160 Z" fill="#ffffff"></path>
+  <!-- subtle top shadow to separate from hero -->
+  <path d="M0,60 C240,132 480,36 720,76 C960,116 1200,28 1440,76 L1440,160 L0,160 Z" fill="#f8fafc" opacity="0.6"></path>
+</svg>

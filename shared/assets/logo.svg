@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" width="300" height="60" role="img" aria-label="TicketFlow logo">
+  <defs>
+    <linearGradient id="logoGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#2563eb"></stop>
+      <stop offset="1" stop-color="#7c3aed"></stop>
+    </linearGradient>
+  </defs>
+  <!-- icon -->
+  <rect x="4" y="10" width="40" height="28" rx="6" fill="url(#logoGrad)"></rect>
+  <path d="M18 18 L30 18 L30 26 L18 26 Z" fill="#fff" opacity="0.15"></path>
+  <!-- text -->
+  <text x="55" y="36" font-family="Inter, Roboto, Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">
+    TicketFlow
+  </text>
+</svg>

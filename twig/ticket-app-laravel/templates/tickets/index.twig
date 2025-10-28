@@ -1,0 +1,27 @@
+{% extends "layout.twig" %}
+{% block content %}
+<div class="page-wrapper dashboard-bg">
+  <div class="container">
+    <header class="header-dashboard tickets-header">
+      <h1>Tickets</h1>
+      <a href="/dashboard" class="back-link">← Dashboard</a>
+    </header>
+
+    <div class="tickets-grid">
+      {% if tickets %}
+        {% for t in tickets %}
+          <div class="ticket-card">
+            <div class="ticket-header">
+              <h3 class="ticket-title">{{ t.title }}</h3>
+              <span class="ticket-status status-{{ t.status|replace({'_':'-'}) }}">{{ t.status }}</span>
+            </div>
+            <p class="ticket-description">{{ t.description }}</p>
+          </div>
+        {% endfor %}
+      {% else %}
+        <div class="empty-state"><p>No tickets yet.</p></div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
